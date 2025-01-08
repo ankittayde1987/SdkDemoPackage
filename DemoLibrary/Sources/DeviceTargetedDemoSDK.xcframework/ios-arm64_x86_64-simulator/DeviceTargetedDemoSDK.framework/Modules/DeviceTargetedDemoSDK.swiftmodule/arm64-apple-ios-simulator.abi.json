@@ -1,0 +1,383 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DeviceTargetedDemoSDK",
+    "printedName": "DeviceTargetedDemoSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeviceTargetedDemoSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceTargetedDemoSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "DeviceTargetedDemoSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeviceTargetedDemoSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DeviceTargetedDemoSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "DeviceTargetedDemoSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HelloWorld",
+        "printedName": "HelloWorld",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HelloWorld",
+                "printedName": "DeviceTargetedDemoSDK.HelloWorld",
+                "usr": "s:21DeviceTargetedDemoSDK10HelloWorldC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21DeviceTargetedDemoSDK10HelloWorldCACycfc",
+            "mangledName": "$s21DeviceTargetedDemoSDK10HelloWorldCACycfc",
+            "moduleName": "DeviceTargetedDemoSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "printMessage",
+            "printedName": "printMessage(msg:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21DeviceTargetedDemoSDK10HelloWorldC12printMessage3msgySS_tF",
+            "mangledName": "$s21DeviceTargetedDemoSDK10HelloWorldC12printMessage3msgySS_tF",
+            "moduleName": "DeviceTargetedDemoSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getListOfBleDevices",
+            "printedName": "getListOfBleDevices(number:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Any]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21DeviceTargetedDemoSDK10HelloWorldC19getListOfBleDevices6number10completionySi_ySayypGXEtF",
+            "mangledName": "$s21DeviceTargetedDemoSDK10HelloWorldC19getListOfBleDevices6number10completionySi_ySayypGXEtF",
+            "moduleName": "DeviceTargetedDemoSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isLocationAccessGiven",
+            "printedName": "isLocationAccessGiven(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21DeviceTargetedDemoSDK10HelloWorldC21isLocationAccessGiven10completionyySb_SStXE_tF",
+            "mangledName": "$s21DeviceTargetedDemoSDK10HelloWorldC21isLocationAccessGiven10completionyySb_SStXE_tF",
+            "moduleName": "DeviceTargetedDemoSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isBluetoothPermissionGranted",
+            "printedName": "isBluetoothPermissionGranted(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21DeviceTargetedDemoSDK10HelloWorldC28isBluetoothPermissionGranted10completionyySb_SStXE_tF",
+            "mangledName": "$s21DeviceTargetedDemoSDK10HelloWorldC28isBluetoothPermissionGranted10completionyySb_SStXE_tF",
+            "moduleName": "DeviceTargetedDemoSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21DeviceTargetedDemoSDK10HelloWorldC",
+        "mangledName": "$s21DeviceTargetedDemoSDK10HelloWorldC",
+        "moduleName": "DeviceTargetedDemoSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/acclivis\/Desktop\/DeviceTargetedDemoSDK\/DeviceTargetedDemoSDK\/BleDeviceList.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 38,
+      "value": "\"6E400001-B5A3-F393-E0A9-E50E24DCCA9E\""
+    },
+    {
+      "filePath": "\/Users\/acclivis\/Desktop\/DeviceTargetedDemoSDK\/DeviceTargetedDemoSDK\/BleDeviceList.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 38,
+      "value": "\"6E400002-B5A3-F393-E0A9-E50E24DCCA9E\""
+    },
+    {
+      "filePath": "\/Users\/acclivis\/Desktop\/DeviceTargetedDemoSDK\/DeviceTargetedDemoSDK\/BleDeviceList.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 38,
+      "value": "\"6E400003-B5A3-F393-E0A9-E50E24DCCA9E\""
+    },
+    {
+      "filePath": "\/Users\/acclivis\/Desktop\/DeviceTargetedDemoSDK\/DeviceTargetedDemoSDK\/BleDeviceList.swift",
+      "kind": "StringLiteral",
+      "offset": 913,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/acclivis\/Desktop\/DeviceTargetedDemoSDK\/DeviceTargetedDemoSDK\/BleDeviceList.swift",
+      "kind": "StringLiteral",
+      "offset": 1002,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/acclivis\/Desktop\/DeviceTargetedDemoSDK\/DeviceTargetedDemoSDK\/BleDeviceList.swift",
+      "kind": "StringLiteral",
+      "offset": 1045,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/acclivis\/Desktop\/DeviceTargetedDemoSDK\/DeviceTargetedDemoSDK\/BleDeviceList.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1248,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/acclivis\/Desktop\/DeviceTargetedDemoSDK\/DeviceTargetedDemoSDK\/BleDeviceList.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1311,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/acclivis\/Desktop\/DeviceTargetedDemoSDK\/DeviceTargetedDemoSDK\/BleDeviceList.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1349,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/acclivis\/Desktop\/DeviceTargetedDemoSDK\/DeviceTargetedDemoSDK\/BleDeviceList.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1391,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/acclivis\/Desktop\/DeviceTargetedDemoSDK\/DeviceTargetedDemoSDK\/BleDeviceList.swift",
+      "kind": "FloatLiteral",
+      "offset": 1417,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/acclivis\/Desktop\/DeviceTargetedDemoSDK\/DeviceTargetedDemoSDK\/BleDeviceList.swift",
+      "kind": "StringLiteral",
+      "offset": 1542,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

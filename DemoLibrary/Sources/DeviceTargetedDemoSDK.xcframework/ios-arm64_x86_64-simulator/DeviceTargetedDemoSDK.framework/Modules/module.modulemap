@@ -1,0 +1,6 @@
+framework module DeviceTargetedDemoSDK {
+  umbrella header "DeviceTargetedDemoSDK.h"
+  export *
+
+  module * { export * }
+}
